@@ -1,0 +1,19 @@
+{
+  "name": "gitdocs",
+  "version": "0.0.1",
+  "description": "A central, searchable home for all of your organization's github docs",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "author": "Shawn Rushefsky",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.2",
+    "sinon": "^7.3.1"
+  }
+}
